@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T23:48:57 IST" name="Suite" finished-at="2022-07-13T23:50:50 IST" duration-ms="113239">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T23:48:57 IST" name="Login" finished-at="2022-07-13T23:49:39 IST" duration-ms="41953">
+      <class name="Admin.Login">
+        <test-method signature="Admin_login_Credentials()[pri:0, instance:Admin.Login@3ee37e5a]" started-at="2022-07-13T23:48:58 IST" name="Admin_login_Credentials" finished-at="2022-07-13T23:49:39 IST" duration-ms="41491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_login_Credentials -->
+      </class> <!-- Admin.Login -->
+    </test> <!-- Login -->
+    <test started-at="2022-07-13T23:49:39 IST" name="invite_students" finished-at="2022-07-13T23:50:15 IST" duration-ms="35146">
+      <class name="Admin.Manage_Students">
+        <test-method signature="Manage_students_Module()[pri:0, instance:Admin.Manage_Students@7db12bb6]" started-at="2022-07-13T23:49:40 IST" name="Manage_students_Module" finished-at="2022-07-13T23:49:57 IST" duration-ms="17772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_students_Module -->
+        <test-method signature="Invite_Function()[pri:1, instance:Admin.Manage_Students@7db12bb6]" started-at="2022-07-13T23:49:57 IST" name="Invite_Function" finished-at="2022-07-13T23:50:15 IST" duration-ms="17192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invite_Function -->
+      </class> <!-- Admin.Manage_Students -->
+    </test> <!-- invite_students -->
+    <test started-at="2022-07-13T23:50:15 IST" name="Single_invite" finished-at="2022-07-13T23:50:50 IST" duration-ms="35709">
+      <class name="Admin.Single_Invite">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Admin.Single_Invite@60bd273d]" started-at="2022-07-13T23:48:04 IST" name="launch_browser" finished-at="2022-07-13T23:48:57 IST" duration-ms="52615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="Student_Single_Invite()[pri:0, instance:Admin.Single_Invite@60bd273d]" started-at="2022-07-13T23:50:15 IST" name="Student_Single_Invite" finished-at="2022-07-13T23:50:50 IST" duration-ms="35681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Student_Single_Invite -->
+        <test-method is-config="true" signature="Close_browser()[pri:0, instance:Admin.Single_Invite@60bd273d]" started-at="2022-07-13T23:50:50 IST" name="Close_browser" finished-at="2022-07-13T23:51:01 IST" duration-ms="10187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- Admin.Single_Invite -->
+    </test> <!-- Single_invite -->
+  </suite> <!-- Suite -->
+</testng-results>
